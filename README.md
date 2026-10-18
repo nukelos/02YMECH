@@ -4,42 +4,34 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
 
 ## Planned To-Do
 
-- [ ] Main File for the book 
+- [x] Main File for the book 
     - [ ] Introduction
-- [ ] Mathematical tools.
-    - [ ] Brief Explanation of the mathematical concepts 
-    - [ ] Homeworks
-    - [ ] Solution
+- [x] Mathematical tools.
+    - [x] Brief Explanation of the mathematical concepts 
+    - [x] Homeworks
 - [ ] Kinematics
     - [ ] Lecture
     - [ ] Homeworks
-    - [ ] Solutions
 - [ ] Dynamics
     - [ ] Lecture
     - [ ] Homeworks
-    - [ ] Solutions
 - [ ] Small Oscillations 
     - [ ] Lecture
     - [ ] Homeworks
-    - [ ] Solutions
 - [ ] Central Force Motion
     - [ ] Lectures
     - [ ] Homeworks
-    - [ ] Solutions
 - [ ] Dynamics of system of particles
     - [ ] Lectures
     - [ ] Homeworks
-    - [ ] Solutions
 - [ ] Motion in a noninertial reference frame
     - [ ] Lectures
     - [ ] Homeworks
-    - [ ] Solutions
 - [ ] Gravitation
     - [ ] Lectures
     - [ ] Homework
-    - [ ] Solution
 - [ ] Rigid Body Motion
     - [ ] Lectures
     - [ ] Homework 
-    - [ ] Solutions
 - [ ] Appendix : Exams
+- [ ] Appendix B : Solutions

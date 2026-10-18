@@ -1,0 +1,29 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{subfiles}
+\fancyhf{}
+\fancyhead[LE]{\scshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+\pagestyle{fancy}
+
+\title{CTU:\@ Mechanics\@ Lectures\@ Compilation}
+\author{Iskender Yalcinkaya}
+\date{}
+
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+\mainmatter
+\subfile{chapter1/math.tex}
+\subfile{chapter1/homework.tex}
+\subfile{chapter1/solutions.tex}
+\backmatter
+\end{document}
