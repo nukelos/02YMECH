@@ -2,6 +2,8 @@
 
 Welcome to the forked repository for the **Mechanics**. Here I will be working on the preparation of a classroom booklet for the next years students to come so it'll be easier for them to grasp the concepts in the lectures. All the credits goes to my mechanics teacher Iskender Yalcinkaya
 
+----
+
 ## Planned To-Do
 
 - [x] Main File for the book 
@@ -9,13 +11,14 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
 - [x] Mathematical tools.
     - [x] Brief Explanation of the mathematical concepts 
     - [x] Homeworks
-- [ ] Kinematics
-    - [ ] Lecture
+- [x] Kinematics
+    - [x] Lecture
+        - [ ] Fix Graphics
     - [ ] Homeworks
-- [ ] Dynamics
-    - [ ] Lecture
-    - [ ] Homeworks
-- [ ] Small Oscillations 
+- [x] Dynamics
+    - [x] Lecture
+    - [x] Homeworks
+- [ ] Small Oscillations(WIP) 
     - [ ] Lecture
     - [ ] Homeworks
 - [ ] Central Force Motion
@@ -35,3 +38,4 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
     - [ ] Homework 
 - [ ] Appendix : Exams
 - [ ] Appendix B : Solutions
+- [ ] Fix Latex Issues(Final Revision)
