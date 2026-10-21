@@ -21,7 +21,7 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
 - [ ] Small Oscillations(WIP) 
     - [ ] Lecture
     - [ ] Homeworks
-- [ ] Central Force Motion
+- [x] Central Force Motion
     - [ ] Lectures
     - [ ] Homeworks
 - [ ] Dynamics of system of particles
@@ -38,4 +38,5 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
     - [ ] Homework 
 - [ ] Appendix : Exams
 - [ ] Appendix B : Solutions
+- [ ] Make All graphics on LaTeX
 - [ ] Fix Latex Issues(Final Revision)

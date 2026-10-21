@@ -185,7 +185,7 @@ c\mathbf{A} = cA_x\mathbf{i} + cA_y\mathbf{j} + cA_z\mathbf{k}.
 
 The \emph{dot product} of two vectors is defined as the product of their magnitudes and the cosine of the angle between them:
 
-\[\mathbf{A}\cdot\mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta = A_xB_x + A_yB_y + A_zB_z.\]
+\[\mathbf{A}\cdot\mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta = {A_x}B_x + A_y{B_y} + {A_z}{B_z}\]
 
 The dot product is useful for finding the component of one vector along another and for calculating angles between vectors.
 
@@ -204,12 +204,12 @@ The \emph{cross product} of two vectors produces a vector perpendicular to both:
 where $\hat{\mathbf{n}}$ is determined by the right-hand rule. In three dimensions,
 
 \begin{align*}
-\mathbf{A}\times\mathbf{B}
-&= (A_x\mathbf{i} + A_y\mathbf{j} + A_z\mathbf{k}) \times (B_x\mathbf{i} + B_y\mathbf{j} + B_z\mathbf{k})\\
-&= A_xB_x(\mathbf{i}\times\mathbf{i}) + A_xB_y(\mathbf{i}\times\mathbf{j}) + A_xB_z(\mathbf{i}\times\mathbf{k}) \\
-&\quad + A_yB_x(\mathbf{j}\times\mathbf{i}) + A_yB_y(\mathbf{j}\times\mathbf{j}) + A_yB_z(\mathbf{j}\times\mathbf{k}) \\
-&\quad + A_zB_x(\mathbf{k}\times\mathbf{i}) + A_zB_y(\mathbf{k}\times\mathbf{j}) + A_zB_z(\mathbf{k}\times\mathbf{k}) \\
-&= (A_yB_z - A_zB_y)\mathbf{i} + (A_zB_x - A_xB_z)\mathbf{j} + (A_xB_y - A_yB_x)\mathbf{k}.  
+	\mathbf{A}\times\mathbf{B}
+		&= (A_x\mathbf{i} + A_y\mathbf{j} + A_z\mathbf{k}) \times (B_x\mathbf{i} + B_y\mathbf{j} + B_z\mathbf{k})\\
+		&= {A_x}B_x(\mathbf{i}\times\mathbf{i}) + {A_x}B_y(\mathbf{i}\times\mathbf{j}) + {A_x}B_z(\mathbf{i}\times\mathbf{k}) \\
+		&\quad + {A_y}B_x(\mathbf{j}\times\mathbf{i}) + {A_y}B_y(\mathbf{j}\times\mathbf{j}) + {A_y}B_z(\mathbf{j}\times\mathbf{k}) \\
+		&\quad + {A_z}B_x(\mathbf{k}\times\mathbf{i}) + {A_z}B_y(\mathbf{k}\times\mathbf{j}) + {A_z}B_z(\mathbf{k}\times\mathbf{k}) \\
+		&= ({A_y}B_z - {A_z}B_y)\mathbf{i} + ({A_z}B_x - {A_x}B_z)\mathbf{j} + ({A_x}B_y - {A_y}B_x)\mathbf{k}.  
 \end{align*}
 
 \section{Basic Calculus}
@@ -269,11 +269,7 @@ There are several common ways to denote the derivative of a function:
 \item $f'(x)$: This is the \emph{Lagrange notation}, also called \emph{prime notation}. It is a concise notation commonly used when working with functions.
 
 \item $\dot{f}$: This is the \emph{Newton notation}, also called \emph{dot notation}. It denotes differentiation with respect to time and is particularly common in physics and mechanics. For example,
-
-$$
-\dot{f} = \frac{df}{dt}.
-$$
-
+	\[\dot{f} = \frac{df}{dt}.\]
 \end{itemize}
 
 \subsection{Derivatives of Common Functions}
@@ -281,30 +277,30 @@ $$
 The derivatives of some common functions are as follows:
 
 \begin{align*}
-\frac{d}{dx}(c) &= 0, \\
-\frac{d}{dx}(x^n) &= nx^{n-1}, \\
-\frac{d}{dx}(e^x) &= e^x, \\
-\frac{d}{dx}(\ln x) &= \frac{1}{x}, \\
-\frac{d}{dx}(\sin x) &= \cos x, \\
-\frac{d}{dx}(\cos x) &= -\sin x, \\
-\frac{d}{dx}(\tan x) &= \sec^2 x, \\
-\frac{d}{dx}(\arcsin x) &= \frac{1}{\sqrt{1-x^2}}, \\
-\frac{d}{dx}(\arccos x) &= -\frac{1}{\sqrt{1-x^2}}, \\
-\frac{d}{dx}(\arctan x) &= \frac{1}{1+x^2}.
+	\frac{d}{dx}(c) &= 0, \\
+	\frac{d}{dx}(x^n) &= nx^{n-1}, \\
+	\frac{d}{dx}(e^x) &= e^x, \\
+	\frac{d}{dx}(\ln x) &= \frac{1}{x}, \\
+	\frac{d}{dx}(\sin x) &= \cos x, \\
+	\frac{d}{dx}(\cos x) &= -\sin x, \\
+	\frac{d}{dx}(\tan x) &= \sec^2 x, \\
+	\frac{d}{dx}(\arcsin x) &= \frac{1}{\sqrt{1-x^2}}, \\
+	\frac{d}{dx}(\arccos x) &= -\frac{1}{\sqrt{1-x^2}}, \\
+	\frac{d}{dx}(\arctan x) &= \frac{1}{1+x^2}.
 \end{align*}
 
 Some useful rules for differentiating functions \(f(x)\) and \(g(x)\) are
 
-\begin{align*}
-\frac{d}{dx}[f(x)+g(x)]
-&= f'(x)+g'(x), \\
-\frac{d}{dx}[c f(x)]
-&= c f'(x), \\
-\frac{d}{dx}[f(x)g(x)]
-&= f'(x)g(x)+f(x)g'(x), \\
-\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right]
-&=
-\frac{f'(x)g(x)-f(x)g'(x)}{[g(x)]^2}.
+	\begin{align*}
+	\frac{d}{dx}[f(x)+g(x)]
+	&= f'(x)+g'(x), \\
+	\frac{d}{dx}[c f(x)]
+	&= c f'(x), \\
+	\frac{d}{dx}[f(x)g(x)]
+	&= f'(x)g(x)+f(x)g'(x), \\
+	\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right]
+	&=
+	\frac{f'(x)g(x)-f{(x)}g'{(x)}}{{g(x)}^2}.
 \end{align*}
 
 For a composite function \(f(g(x))\), the chain rule gives
@@ -504,13 +500,11 @@ F(b)-F(a).
 
 For example,
 
-\[
-\int_0^2 x^2\,dx
+\[ \int_0^2 x^2\,dx
 =
 \left[\frac{x^3}{3}\right]_0^2
 =
-\frac{8}{3}.
-\]
+\frac{8}{3}. \]
 
 Thus, differentiation and integration are inverse operations. Differentiation describes the instantaneous rate of change of a function, while integration can be used to accumulate a quantity or calculate the signed area under a curve.
 
@@ -563,7 +557,7 @@ f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n
 
 \textbf{(a)} Addition requires the same physical dimension; mass and temperature have different dimensions, so the sum has no meaning. Multiplication and division are always allowed and create a new unit:
 \[
-\rho = \frac{m}{V} = \frac{2.7\,\text{kg}}{1.0\times 10^{-3}\,\text{m}^3} = 2700\ \text{kg/m}^3 .
+\rho = \frac{m}{V} = \frac{2.7\,\text{kg}}{1.0\times 10^{-3}\,\text{m}^3} = 2700\ \text{kg/m}^3
 \]
 
 \textbf{(b)}
@@ -579,12 +573,12 @@ and $2\pi$ is a dimensionless scalar.
 \[
 \hat{a} = \frac{\mathbf{A}}{|\mathbf{A}|} = \frac{2}{7}\hat{\imath} + \frac{3}{7}\hat{\jmath} + \frac{6}{7}\hat{k},
 \qquad
-|\hat{a}| = \frac{1}{7}\sqrt{4+9+36} = 1 .
+|\hat{a}| = \frac{1}{7}\sqrt{4+9+36} = 1
 \]
 The direction cosine with the $x$-axis is
 \[
 \cos\alpha = \frac{A_x}{|\mathbf{A}|} = \frac{2}{7}
-\quad \Longrightarrow \quad \alpha \approx 73.4^\circ .
+\quad \Longrightarrow \quad \alpha \approx 73.4^\circ
 \]
 Note also that $\cos^2\alpha + \cos^2\beta + \cos^2\gamma = \frac{4+9+36}{49} = 1$.
 
@@ -639,7 +633,7 @@ The distance travelled is $7$ km. It is a scalar, it has no direction, and it is
 \[
 |\mathbf{F}_3| = \sqrt{4+64} = 2\sqrt{17} \approx 8.2\ \text{N},
 \]
-pointing $76^\circ$ below the $-x$ axis, i.e. in the third quadrant.
+pointing $76^\circ$ below the $-x$ axis, i.e.\ in the third quadrant.
 
 \bigskip
 \noindent \emph{Board tip: do part (b) graphically first with the triangle or parallelogram rule, then analytically.}
@@ -673,7 +667,7 @@ Let $\mathbf{A} = 2\hat{\imath}+3\hat{\jmath}-\hat{k}$ and $\mathbf{B} = \hat{\i
 \]
 \[
 \cos\theta = \frac{-6}{3\sqrt{14}} = \frac{-2}{\sqrt{14}} \approx -0.535
-\quad \Longrightarrow \quad \theta \approx 122^\circ .
+\quad \Longrightarrow \quad \theta \approx 122^\circ 
 \]
 A negative dot product means that the angle is obtuse.
 
@@ -703,7 +697,7 @@ Only the component of $\mathbf{F}$ along $\mathbf{d}$ does work.
 \[
 |\mathbf{A}-\mathbf{B}|^2 = (\mathbf{A}-\mathbf{B})\cdot(\mathbf{A}-\mathbf{B})
 = A^2 + B^2 - 2\,\mathbf{A}\cdot\mathbf{B}
-= A^2 + B^2 - 2AB\cos\theta .
+= A^2 + B^2 - 2AB\cos\theta 
 \]
 
 
