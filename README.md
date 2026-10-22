@@ -6,39 +6,55 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
 
 ## Planned To-Do
 
-- [x] Main File for the book 
+- [ ] Main File for the book 
     - [ ] Introduction
-- [x] Mathematical tools.
+- [ ] Mathematical tools.
     - [x] Brief Explanation of the mathematical concepts 
     - [x] Homeworks
-- [x] Kinematics
+    - [ ] Fix Type setting
+        - [ ] Make charts
+        - [ ] Fix the Paragraph 
+- [ ] Kinematics
     - [x] Lecture
         - [ ] Fix Graphics
     - [ ] Homeworks
-- [x] Dynamics
+- [ ] Dynamics
     - [x] Lecture
     - [x] Homeworks
+    - [ ] Fix Type setting
 - [ ] Small Oscillations(WIP) 
     - [ ] Lecture
     - [ ] Homeworks
+    - [ ] Fix Type setting
 - [x] Central Force Motion
     - [ ] Lectures
     - [ ] Homeworks
+    - [ ] Fix Type setting
 - [ ] Dynamics of system of particles
     - [ ] Lectures
     - [ ] Homeworks
+    - [ ] Fix Type setting
 - [ ] Motion in a noninertial reference frame
     - [ ] Lectures
     - [ ] Homeworks
+    - [ ] Fix Type setting
 - [ ] Gravitation
     - [ ] Lectures
     - [ ] Homework
+    - [ ] Fix Type setting
 - [ ] Rigid Body Motion
     - [ ] Lectures
     - [ ] Homework 
-- [ ] Appendix : Exams
+    - [ ] Fix Type setting
+- [ ] Appendix A: Exams
+    - [ ] Link All Exams
+    - [ ] Compile all of the q*.tex
+    - [ ] Fix Formatting
+    - [ ] Fix Type setting
+    - [ ] Link All Tex Files
 - [ ] Appendix B : Solutions
     - [x] Link All tex files
+    - [ ] Fix Type setting
     - [ ] Configure and name them properly
 - [ ] Make All graphics on LaTeX
 - [ ] Fix Latex Issues(Final Revision)

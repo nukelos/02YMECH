@@ -5,31 +5,6 @@
 \usepackage[a4paper, margin=0.9in]{geometry} % Adjust the margin here
 \usepackage{multirow}
     
-    \title{{\Large FJFI - Department of Physics} \\ 
-                  02MECH - Mechanics \\ 
-          {\Large \textbf{Exam}}\vspace{-1cm}}
-\date{31.01.2024 \\ 13:00}
-\author{}
-
-\begin{document}
-
-\maketitle
-\vspace{-1.5em}
-
-\begin{center}
-    \renewcommand{\arraystretch}{2}
-    \begin{tabular}{ |c|c|c|c|c|c| } 
-        \hline
-        Name& \multicolumn{5}{c|}{\phantom{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}\\
-        \hline
-        Problem & ~~~~1~~~~ & ~~~~2~~~~ & ~~~~3~~~~ & ~~~~4~~~~ & Total \\ 
-        \hline
-        Score & &  & & & \\
-        \hline
-    \end{tabular}
-\end{center}
-
-\vspace*{1cm}
 
 \input{instructions}
 
@@ -38,5 +13,40 @@
 \include{q3}
 \include{q4}
 
-\end{document}
 
+\section*{Question 1}
+\begin{itemize}
+    \item [\textbf{(a)}] Describe the simple harmonic oscillation problem in one dimension with a simple figure. Write down and solve its equation of motion step by step to obtain $x(t)=Ae^{-i\omega_0 t}+Be^{i\omega_0 t}$, where $A$ and $B$ are some arbitrary constants, $\omega_0$ is the natural oscillation frequency and $t$ is time. -- \textit{0.5 points}
+
+    \item [\textbf{(b)}] We know that the equation $x(t)=Ae^{-i\omega_0 t}+Be^{i\omega_0 t}$ can be written in $x(t)=C\cos{\left(\omega_o t\right)}$ form (where $C$ is an arbitrary real constant) that describes the position of the block with respect to time. What would be $C$ for the initial condition $x(0)=x_0$. What is the total energy of the oscillator? -- \textit{0.25 points}
+
+    \item [\textbf{(c)}] Let us assume that the motion is damped with the resistance force $F_f=-b\dot{x}$. Given that the equation of motion is $x(t)=e^{-\beta t}x_0\cos{\left(\omega_1 t\right)}$, how long does it take for the damped oscillator to halve the amplitude of the oscillation? (Givens: $\ln2\approx 0.7$, $m=~1\text{kg}$, $b=1.4~\text{kg/s}$) -- \textit{0.25 points}
+\end{itemize}
+
+\section*{Question 2}
+Consider two identical pendulums, each consisting of a mass $m$ attached to a string of length $L$ suspended from the same point. The pendulums are initially at rest. The pendulum $A$ is released from a height $h$ relative to $B$, while the pendulum $B$ is initially stationary.
+
+\begin{itemize}
+    \item [\textbf{(a)}] Determine the velocity of the pendulum $A$ just before it collides with the pendulum $B$. ~-- \textit{0.5 points}
+    \item [\textbf{(b)}] After the collision, the two pendulums stick together and swing as one system. Calculate the maximum height reached by the combined system after the collision. -- \textit{0.5 points}
+\end{itemize}
+
+\section*{Question 3}
+A car of mass $m$ is moving at a speed $v$ around a curve with a radius $R$. The coefficient of static friction between the tires and the road is $\mu_s$, and the gravitational acceleration is $g$.
+
+\begin{itemize}
+    \item [\textbf{(a)}] Determine the maximum speed $v_{\text{max}}$ at which the car can navigate the curve safely to avoid slippage. -- \textit{0.5 points}
+    
+    \item [\textbf{(b)}] If the road is banked at an angle $\theta$ with respect to the horizontal, how would the maximum speed of the car change compared to (a) for a safe turn? -- \textit{0.5 points}
+\end{itemize}
+
+Note: Assume that the car does not experience any other external forces, such as air resistance.
+
+\section*{Question 4}
+A spring with stiffness $k$ and zero equilibrium length is stretched by a force $F_0$ up to a point $x_{\text{max}}$ where $F_0$ is balanced with the spring force. At the end of the spring, a mass $m$ is attached. 
+\begin{itemize}
+    \item [\textbf{(a)}] When the mass is released, what is the work done by the spring force on the mass until it reaches half of its initial displacement? -- \textit{0.5 points}
+    \item [\textbf{(b)}] Determine the impulse of the spring force during this specific phase of the motion. -- \textit{0.5 points}
+\end{itemize} 
+
+\end{document}
