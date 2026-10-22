@@ -38,5 +38,7 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
     - [ ] Homework 
 - [ ] Appendix : Exams
 - [ ] Appendix B : Solutions
+    - [x] Link All tex files
+    - [ ] Configure and name them properly
 - [ ] Make All graphics on LaTeX
 - [ ] Fix Latex Issues(Final Revision)

@@ -1,0 +1,47 @@
+\documentclass[../main.tex]{subfiles}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{geometry}
+\usepackage{parskip}
+
+\begin{document}
+\maketitle
+
+\section*{Solutions}
+
+\[
+r(\theta)=\frac{a}{1+b\cos\theta}, \qquad a>0,\;0<b<1.
+\]
+
+As we derived in lectures:
+
+\[
+f(r)=-\frac{l^2u^2}{m} \!\left(\frac{d^2u}{d\theta^2}+u\right),
+\]
+where \(u=1/r\). Then
+\[\
+u=\frac{1}{a}(1+b\cos\theta),\qquad
+\frac{d^2u}{d\theta^2}+u=\frac{1}{a}.
+\]
+
+
+\begin{enumerate}
+\item \textbf{Central force}
+\[
+f(r)=-\frac{l^2}{ma}\,\frac{1}{r^2}.
+\]
+
+Thus the force is an inverse--square law.
+
+\item \textbf{Attractive or repulsive}
+
+Since \(m>0\), \(l^2>0\), and \(a>0\),
+\[
+f(r)<0 \quad \text{for all } r>0,
+\]
+so the force is \emph{attractive}, in particular for \(0<r<a\).
+\end{enumerate}
+
+\end{document}
