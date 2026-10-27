@@ -6,6 +6,7 @@ Welcome to the forked repository for the **Mechanics**. Here I will be working o
 
 ## Planned To-Do
 
+- [ ] Update the book as new materials gets added
 - [ ] Main File for the book 
     - [ ] Introduction
 - [ ] Mathematical tools.
